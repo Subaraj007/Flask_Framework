@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Flask Application123</title>
+        
+        <link rel="stylesheet" href="{{ url_for('static', filename='CSS/about.css') }}">
+
+    </head>
+    <body>
+        <p>It seems that the /about route is returning an HTML string directly instead of rendering a template using render_template. 
+            If you want to render an HTML template for the /about route, you should use render_template as you did with the / route.</p>
+    </body>
+</html>
